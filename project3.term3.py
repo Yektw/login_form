@@ -10,7 +10,7 @@ root.title("Login Form")
 root.configure(bg="white")
 #funcs==========================================
 def signup():
-    if not ent_email.get() and not ent_pass.get():
+    if not ent_email.get() or not ent_pass.get():
         messagebox.showerror("Error","Email and Password must be filled!!!")
         return
     if db.search(ent_email.get(),ent_pass.get()):

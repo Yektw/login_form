@@ -3,6 +3,7 @@ from tkinter import messagebox
 from mydb1 import Database
 
 db = Database("c:/module/users_info.db")
+print('*************************')
 
 root = Tk()
 root.geometry("500x300")

@@ -55,7 +55,7 @@ lbl_star = Label(root,text='*',font="arial 16 bold",fg="red",bg="white").place(x
 
 lbl_pass = Label(root,text="Password:",font="arial 12 bold",bg="white")
 lbl_pass.place(x=100,y=140)
-lbl_star = Label(root,text='*',font="arial 16 bold",fg="red",bg="white").place(x=195,y=142)
+lbl_star = Label(root,text='*',font="arial 16 bold",fg="green",bg="white").place(x=195,y=142)
 
 #entries========================================
 ent_fname = Entry(root,font="arial 10 bold",width=25)

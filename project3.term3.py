@@ -51,7 +51,7 @@ lbl_lname.place(x=100,y=60)
 
 lbl_email = Label(root,text="Email:",font="arial 12 bold",bg="white")
 lbl_email.place(x=100,y=100)
-lbl_star = Label(root,text='*',font="arial 16 bold",fg="red",bg="white").place(x=195,y=102)
+lbl_star = Label(root,text='*',font="arial 16 bold",fg='blue',bg="white").place(x=195,y=102)
 
 lbl_pass = Label(root,text="Password:",font="arial 12 bold",bg="white")
 lbl_pass.place(x=100,y=140)
